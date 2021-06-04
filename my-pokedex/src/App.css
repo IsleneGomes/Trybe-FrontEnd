@@ -1,29 +1,26 @@
-.pok {
+.pokedex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
   list-style: none;
   border-radius: 25px;
   box-shadow: 2px 3px 3px black;
   background-color: rgb(221, 247, 247);
-  flex-wrap: wrap;
-  flex-grow: 3;
-  flex-basis: 10%;
-  margin-right: 20px;
-  margin-left: 20px;
-  margin-top: 20px;
+  margin: 15vh;
+  width: auto;
+  height: auto;
+  font-size: x-large;
+  text-align: center;
+  justify-items: center;
 }
 
-.App {
-  display: flex;
-  flex-wrap: wrap;
-  flex-grow: 3;
-  justify-content:center;
-  margin-left: 50px;
-  margin-right: 50px;
-  color: blue;
+.buttons {
   text-align: center;
+  justify-content:center;
 }
 
 .title {
-flex-basis: 100%;
-margin-left: 50px;
-text-align: center;
+  flex-basis: 100%;
+  text-align: center;
 }
