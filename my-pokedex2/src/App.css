@@ -1,0 +1,43 @@
+.pok {
+  display: flex;
+  align-items: center;
+  align-content: center;
+  list-style: none;
+  border-radius: 25px;
+  box-shadow: 3px 5px 5px black;
+  background-color: rgb(46, 76, 160);
+  justify-content: space-between;
+  flex-grow: 1;
+  width: 20%;
+  height: 80%;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-top: 20px;
+  padding: 20px 20px 20px;
+  font-size: 100%;
+}
+
+.pokedex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  list-style: none;
+  flex-wrap: wrap;
+  flex-grow: 1;
+  justify-content: space-between;
+  color: white;
+}
+
+.title {
+  text-align: center;
+  background-color: rgb(46, 76, 160);
+  color: white;
+  padding: 20px 20px 20px;
+  box-shadow: 3px 5px 5px black;
+}
+
+.image {
+  width: auto;
+  height: auto;
+}
