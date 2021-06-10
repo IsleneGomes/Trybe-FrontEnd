@@ -17,6 +17,7 @@
     "url": "https://github.com/IsleneGomes/Trybe-FrontEnd/issues"
   },
   "dependencies": {
-    "react": "^17.0.2"
+    "react": "^17.0.2",
+    "react-router-dom": "^5.2.0"
   }
 }
